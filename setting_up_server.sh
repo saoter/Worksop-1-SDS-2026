@@ -57,7 +57,7 @@ fi
 # 7. Create standard folders
 # ----------------------------------------
 echo "=== Creating folders ==="
-mkdir -p logs data outputs
+mkdir -p logs data outputs scripts
 
 # ----------------------------------------
 # 8. Done
