@@ -138,7 +138,13 @@ This time we dont need to set passwords, as all configuration and database was s
 
 **don't forget connecting the jobs again with the same hostname (sql-net)**
 
-The configuration of this server was not saved. So, we need to do everything again from step 7 - 9!
+The configuration of this server was not saved. So, we need to do everything again from step 7 - 8!
+
+### connect to sql server and database
+
+```
+ mysql -h sql-net -u clientuser -p course_db
+```
 
 ### Step 13 - Write shell script for VS Code, that will be used next time to start the server and save it in VSCODE folder
 
@@ -156,5 +162,3 @@ SELECT * FROM users;
 - Dont forget to connect jobs again... 
 
 After server starts... What did you noticed?
-
-
